@@ -16,7 +16,7 @@ const FeatureMovie = () => {
         </div>
 
         <div className="grid-movies">
-        <Link to="/dashboard" >
+        <Link id="Link2" to="/dashboard" >
         <div className="grid1" data-testid= "movie-card">
             {/* <a href = "/Dashboard.jsx"> */}
                 <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
@@ -34,10 +34,10 @@ const FeatureMovie = () => {
                             <p id="percent">97%</p>
                         </div>
                     </div>
-                    <h3>Action, Adventure, Thriller</h3>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
             </div>
             </Link>
-            <Link to="/dashboard" >
+            <Link id="Link2" to="/dashboard" >
         <div className="grid1" data-testid= "movie-card">
             {/* <a href = "/Dashboard.jsx"> */}
                 <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
@@ -55,33 +55,11 @@ const FeatureMovie = () => {
                             <p id="percent">97%</p>
                         </div>
                     </div>
-                    <h3>Action, Adventure, Thriller</h3>
-            </div>
-            </Link>
-
-            <Link to="/dashboard" >
-        <div className="grid1" data-testid= "movie-card">
-            {/* <a href = "/Dashboard.jsx"> */}
-                <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
-                {/* </a> */}
-                <p id="date" data-testid= "movie-release-date">USA,2016 - Current</p>
-                <h4 data-testid = "movie-title">Stranger Things</h4>
-                <div className="flex-general2">
-                        <div className="flex-aside2">
-                            <img src={IMD} alt=""/>
-                            <p id="rate">86.0 / 100</p>
-                        </div>
-
-                        <div className="flex-otherside2">
-                        <img src={Fruit} alt=""/>
-                            <p id="percent">97%</p>
-                        </div>
-                    </div>
-                    <h3>Action, Adventure, Thriller</h3>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
             </div>
             </Link>
 
-            <Link to="/dashboard" >
+            <Link id="Link2" to="/dashboard" >
         <div className="grid1" data-testid= "movie-card">
             {/* <a href = "/Dashboard.jsx"> */}
                 <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
@@ -99,57 +77,11 @@ const FeatureMovie = () => {
                             <p id="percent">97%</p>
                         </div>
                     </div>
-                    <h3>Action, Adventure, Thriller</h3>
-            </div>
-            </Link>
-        </div>
-
-        <div className="grid-movies">
-        <Link to="/dashboard" >
-        <div className="grid1" data-testid= "movie-card">
-            {/* <a href = "/Dashboard.jsx"> */}
-                <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
-                {/* </a> */}
-                <p id="date" data-testid= "movie-release-date">USA,2016 - Current</p>
-                <h4 data-testid = "movie-title">Stranger Things</h4>
-                <div className="flex-general2">
-                        <div className="flex-aside2">
-                            <img src={IMD} alt=""/>
-                            <p id="rate">86.0 / 100</p>
-                        </div>
-
-                        <div className="flex-otherside2">
-                        <img src={Fruit} alt=""/>
-                            <p id="percent">97%</p>
-                        </div>
-                    </div>
-                    <h3>Action, Adventure, Thriller</h3>
-            </div>
-            </Link>
-            
-            <Link to="/dashboard" >
-        <div className="grid1" data-testid= "movie-card">
-            {/* <a href = "/Dashboard.jsx"> */}
-                <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
-                {/* </a> */}
-                <p id="date" data-testid= "movie-release-date">USA,2016 - Current</p>
-                <h4 data-testid = "movie-title">Stranger Things</h4>
-                <div className="flex-general2">
-                        <div className="flex-aside2">
-                            <img src={IMD} alt=""/>
-                            <p id="rate">86.0 / 100</p>
-                        </div>
-
-                        <div className="flex-otherside2">
-                        <img src={Fruit} alt=""/>
-                            <p id="percent">97%</p>
-                        </div>
-                    </div>
-                    <h3>Action, Adventure, Thriller</h3>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
             </div>
             </Link>
 
-            <Link to="/dashboard" >
+            <Link id="Link2" to="/dashboard" >
         <div className="grid1" data-testid= "movie-card">
             {/* <a href = "/Dashboard.jsx"> */}
                 <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
@@ -167,35 +99,13 @@ const FeatureMovie = () => {
                             <p id="percent">97%</p>
                         </div>
                     </div>
-                    <h3>Action, Adventure, Thriller</h3>
-            </div>
-            </Link>
-
-            <Link to="/dashboard" >
-        <div className="grid1" data-testid= "movie-card">
-            {/* <a href = "/Dashboard.jsx"> */}
-                <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
-                {/* </a> */}
-                <p id="date" data-testid= "movie-release-date">USA,2016 - Current</p>
-                <h4 data-testid = "movie-title">Stranger Things</h4>
-                <div className="flex-general2">
-                        <div className="flex-aside2">
-                            <img src={IMD} alt=""/>
-                            <p id="rate">86.0 / 100</p>
-                        </div>
-
-                        <div className="flex-otherside2">
-                        <img src={Fruit} alt=""/>
-                            <p id="percent">97%</p>
-                        </div>
-                    </div>
-                    <h3>Action, Adventure, Thriller</h3>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
             </div>
             </Link>
         </div>
 
         <div className="grid-movies">
-        <Link to="/dashboard" >
+        <Link id="Link2" to="/dashboard" >
         <div className="grid1" data-testid= "movie-card">
             {/* <a href = "/Dashboard.jsx"> */}
                 <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
@@ -213,11 +123,11 @@ const FeatureMovie = () => {
                             <p id="percent">97%</p>
                         </div>
                     </div>
-                    <h3>Action, Adventure, Thriller</h3>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
             </div>
             </Link>
             
-            <Link to="/dashboard" >
+            <Link id="Link2" to="/dashboard" >
         <div className="grid1" data-testid= "movie-card">
             {/* <a href = "/Dashboard.jsx"> */}
                 <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
@@ -235,11 +145,11 @@ const FeatureMovie = () => {
                             <p id="percent">97%</p>
                         </div>
                     </div>
-                    <h3>Action, Adventure, Thriller</h3>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
             </div>
             </Link>
 
-            <Link to="/dashboard" >
+            <Link id="Link2" to="/dashboard" >
         <div className="grid1" data-testid= "movie-card">
             {/* <a href = "/Dashboard.jsx"> */}
                 <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
@@ -257,11 +167,11 @@ const FeatureMovie = () => {
                             <p id="percent">97%</p>
                         </div>
                     </div>
-                    <h3>Action, Adventure, Thriller</h3>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
             </div>
             </Link>
 
-            <Link to="/dashboard" >
+            <Link id="Link2" to="/dashboard" >
         <div className="grid1" data-testid= "movie-card">
             {/* <a href = "/Dashboard.jsx"> */}
                 <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
@@ -279,7 +189,97 @@ const FeatureMovie = () => {
                             <p id="percent">97%</p>
                         </div>
                     </div>
-                    <h3>Action, Adventure, Thriller</h3>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
+            </div>
+            </Link>
+        </div>
+
+        <div className="grid-movies">
+        <Link id="Link2" to="/dashboard" >
+        <div className="grid1" data-testid= "movie-card">
+            {/* <a href = "/Dashboard.jsx"> */}
+                <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
+                {/* </a> */}
+                <p id="date" data-testid= "movie-release-date">USA,2016 - Current</p>
+                <h4 data-testid = "movie-title">Stranger Things</h4>
+                <div className="flex-general2">
+                        <div className="flex-aside2">
+                            <img src={IMD} alt=""/>
+                            <p id="rate">86.0 / 100</p>
+                        </div>
+
+                        <div className="flex-otherside2">
+                        <img src={Fruit} alt=""/>
+                            <p id="percent">97%</p>
+                        </div>
+                    </div>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
+            </div>
+            </Link>
+            
+            <Link id="Link2" to="/dashboard" >
+        <div className="grid1" data-testid= "movie-card">
+            {/* <a href = "/Dashboard.jsx"> */}
+                <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
+                {/* </a> */}
+                <p id="date" data-testid= "movie-release-date">USA,2016 - Current</p>
+                <h4 data-testid = "movie-title">Stranger Things</h4>
+                <div className="flex-general2">
+                        <div className="flex-aside2">
+                            <img src={IMD} alt=""/>
+                            <p id="rate">86.0 / 100</p>
+                        </div>
+
+                        <div className="flex-otherside2">
+                        <img src={Fruit} alt=""/>
+                            <p id="percent">97%</p>
+                        </div>
+                    </div>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
+            </div>
+            </Link>
+
+            <Link id="Link2" to="/dashboard" >
+        <div className="grid1" data-testid= "movie-card">
+            {/* <a href = "/Dashboard.jsx"> */}
+                <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
+                {/* </a> */}
+                <p id="date" data-testid= "movie-release-date">USA,2016 - Current</p>
+                <h4 data-testid = "movie-title">Stranger Things</h4>
+                <div className="flex-general2">
+                        <div className="flex-aside2">
+                            <img src={IMD} alt=""/>
+                            <p id="rate">86.0 / 100</p>
+                        </div>
+
+                        <div className="flex-otherside2">
+                        <img src={Fruit} alt=""/>
+                            <p id="percent">97%</p>
+                        </div>
+                    </div>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
+            </div>
+            </Link>
+
+            <Link id="Link2" to="/dashboard" >
+        <div className="grid1" data-testid= "movie-card">
+            {/* <a href = "/Dashboard.jsx"> */}
+                <img id="movie-image" src={Header} alt="" data-testid= "movie-poster"/>
+                {/* </a> */}
+                <p id="date" data-testid= "movie-release-date">USA,2016 - Current</p>
+                <h4 data-testid = "movie-title">Stranger Things</h4>
+                <div className="flex-general2">
+                        <div className="flex-aside2">
+                            <img src={IMD} alt=""/>
+                            <p id="rate">86.0 / 100</p>
+                        </div>
+
+                        <div className="flex-otherside2">
+                        <img src={Fruit} alt=""/>
+                            <p id="percent">97%</p>
+                        </div>
+                    </div>
+                    <h3 id = "spec">Action, Adventure, Thriller</h3>
             </div>
             </Link>
         </div>

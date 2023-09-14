@@ -56,11 +56,16 @@ h3{
     background-repeat: no-repeat;
     width: 100%;
     padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .group1_content{
     width: 85%;
     margin: auto;
+}
+
+.movie-info >p{
+    color: #fff;
 }
 
 .movie_content{
@@ -84,6 +89,14 @@ h3{
     display: flex;
     align-items: center;
     gap:.5rem;
+}
+
+.flex-aside  > p{
+    color: #fff;
+}
+
+.flex-otherside  >p{
+    color:#fff;
 }
 
 .flex-otherside{
