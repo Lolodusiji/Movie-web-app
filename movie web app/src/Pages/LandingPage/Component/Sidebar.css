@@ -46,7 +46,7 @@ li {
     background-color: #fff;
     border: 1px solid #0000004D;
     width: 20%;
-    position: relative;
+    position: fixed;
     border-radius: 0 45px 45px 0;
   }
   
@@ -185,4 +185,5 @@ li {
     gap: 10px;
     width: 60%;
     margin: auto;
+    cursor:pointer;
   }
